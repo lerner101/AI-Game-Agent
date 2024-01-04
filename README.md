@@ -1,6 +1,7 @@
 # Colosseum Survival!
 This project features an AI agent utilizing the Minimax algorithm to make optimal decisions in a game setting. The Minimax algorithm is a classic approach in artificial intelligence for decision-making in two-player games. In this implementation, the student agent player is empowered with Minimax to strategically navigate the game space and make optimal moves. Feel free to explore the code, understand the Minimax algorithm's mechanics, and adapt it for your own game scenarios. Whether you're a student diving into AI or an enthusiast exploring game-playing agents, this repository serves as a valuable resource for learning and experimentation. Enjoy gaming with intelligence!
-\n
+
+### Final Report
 The final report/Analysis of my agent can be found in the **Final_Report.pdf**
 
 ## Setup
