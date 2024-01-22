@@ -4,6 +4,9 @@ This project features an AI agent utilizing the Minimax algorithm to make optima
 ### Final Report
 The final report/Analysis of my agent can be found in the **Final_Report.pdf**
 
+### View MiniMax Algorithm
+Code used for Agent in competition can be found in Agenta/student_agent
+
 ## Setup
 
 To setup the game, clone this repository and install the dependencies:
