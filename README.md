@@ -15,22 +15,22 @@ To setup the game, clone this repository and install the dependencies:
 pip install -r requirements.txt
 ```
 
-## Playing a game
+## Playing a game vs my Agent
 
 To start playing a game, we will run the simulator and specify which agents should complete against eachother. To start, several agents are given to you, and you will add your own following the same game interface. For example, to play the game using two copies of the provided random agent (which takes a random action every turn), run the following:
 
 ```bash
-python simulator.py --player_1 random_agent --player_2 random_agent
+python simulator.py --player_1 student_agent --player_2 random_agent
 ```
 
 This will spawn a random game board of size NxN, and run the two agents of class [RandomAgent](agents/random_agent.py). You will be able to see their moves in the console.
 
-## Visualizing a game
+## Visualizing a game vs my Agent
 
 To visualize the moves within a game, use the `--display` flag. You can set the delay (in seconds) using `--display_delay` argument to better visualize the steps the agents take to win a game.
 
 ```bash
-python simulator.py --player_1 random_agent --player_2 random_agent --display
+python simulator.py --player_1 student_agent --player_2 random_agent --display
 ```
 
 ## Play on your own!
@@ -46,7 +46,7 @@ python simulator.py --player_1 human_agent --player_2 random_agent --display
 There is some randomness (coming from the initial game setup and potentially agent logic), so go fairly evaluate agents, we will run them against eachother multiple times, alternating their roles as player_1 and player_2, and on boards are drawn randomly (between size 6 and 12). The aggregate win % will determine a fair winner. Use the `--autoplay` flag to run $n$ games sequentially, where $n$ can be set using `--autoplay_runs`.
 
 ```bash
-python simulator.py --player_1 random_agent --player_2 random_agent --autoplay
+python simulator.py --player_1 student_agent --player_2 random_agent --autoplay
 ```
 
 During autoplay, boards are drawn randomly between size `--board_size_min` and `--board_size_max` for each iteration. You may try various ranges for your own information and development by providing these variables on the command-line. However, the defaults (to be used during grading) are 6 and 12, so ensure the timing limits are satisfied for every board in this size range. 
